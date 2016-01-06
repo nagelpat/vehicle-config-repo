@@ -22,10 +22,6 @@ ribbon:
 
 hystrix.command.default.execution.isolation.strategy: SEMAPHORE
 
-security:
-  basic:
-    enabled: false
-
 ---
 spring:
   profiles: cloud
